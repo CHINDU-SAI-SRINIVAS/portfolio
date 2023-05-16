@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .dark-mode {
+            background: black;
+            color: white;
+        }
+
+        .h5 {
+            background: linear-gradient(rgb(0, 221, 255), rgb(175, 26, 175), rgb(49, 0, 128));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .h1 {
+            font-size: 50px;
+            background: linear-gradient(rgb(0, 221, 255), rgb(175, 26, 175), rgb(49, 0, 128));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .h4 {
+            line-height: 80px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .tech {
+            margin-top: 30px;
+        }
+
+        .img-fluid {
+            border: 5px solid skyblue;
+        }
+
+        .project{
+            margin-top: 150px;
+        }
+        .contact{
+            margin-top: 100px;
+        } 
+        .empty-div {
+            height: 50px;
+        }
+        i{
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        function fun() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5 h5 mt-4">
+                {CHINDU}
+            </div>
+            <div class="col-6 navbar navbar-expand">
+                <ul class="navbar-nav d-flex justify-content-around w-75 fw-bold">
+                    <li class="nav-item"><a class="nav-link" href="#"></a>HOME</li>
+                    <li class="nav-item"><a class="nav-link" href="#"></a>TECH STACK</li>
+                    <li class="nav-item"><a class="nav-link" href="#"></a>PROJECTS</li>
+                    <li class="nav-item"><a class="nav-link" href="#"></a>CONTACT</li>
+                </ul>
+                <div class="form-check form-switch mt-3">
+                    <input type="checkbox" class="form-check-input" onclick="fun()">
+                </div>
+            </div>
+        </div>
+        <div class="row empty-div"></div>
+        <div class="row">
+            <div class="col-1 "></div>
+            <div class="col-5 h4 mt-5">
+                Hi,<br>
+                My Name is,<br>
+                <span class="h1 mt-2">Chindu sai srinivas.</span><br>
+                <div class="h4 mt-2">Judge My Knowldge Not My Branch!</div>
+                <button class="btn btn-info col-3">RESUME</button>
+            </div>
+            <div class="col-6 mt-5 text-center">
+                <img class="img-fluid rounded-circle w-75 h-75" src="images/mine.jpg">
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 h4 text-center tech">My Tech Stack</div>
+            <div class="col-12 text-center h3 tech">Technologies I’ve been working with recently</div>
+            <div class="col-12 d-flex justify-content-around w-100 tech">
+                <img class="" src="https://gulfamahmad.netlify.app/svg/html-icon.svg">
+                <img class="" src="https://gulfamahmad.netlify.app/svg/css-icon.svg">
+                <img class="" src="https://gulfamahmad.netlify.app/svg/js-icon.svg">
+                <img class="" src="https://gulfamahmad.netlify.app/svg/git-icon.svg">
+                <img class="" src="https://gulfamahmad.netlify.app/svg/logos_git-icon.svg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 h4 text-center project">Projects</div>
+            <div class="col-12 text-center h3 tech">Things I’ve Built With Passion</div>
+            <div class="col-12 d-flex justify-content-around w-100 tech">
+                <div class="col-1"></div>
+                <div class="card col-3">
+                    <div class="card-header text-center fw-bold">PORTFOLIO<img src="images/image.jpg" class="img-fluid"></div>
+                    <div class="card-body">My Portfolio
+                        Responsive MY Portfolio Using HTML, CSS , Bootstrap & JavaScript. Contains animations when scrolling. Developed first with the Mobile First methodology, then for desktop.
+                        
+                        Tech Stack:
+                        HTML, CSS, JavaScript,Bootstrap</div>
+                    <div class="card-footer"><a href="">view code</a></div>
+                </div>
+                <div class="card col-3 mx-3">
+                    <div class="card-header text-center fw-bold">COLLEGE WEB PAGE<img src="images/image.jpg" class="img-fluid"></div>
+                    <div class="card-body">My college webpage
+                        Responsive My college webpage Using HTML, CSS , Bootstrap. Contains animations when scrolling.It is my first full fledged webpage. Developed first with the Mobile First methodology, then for desktop.
+                        
+                        Tech Stack:
+                        HTML, CSS, Bootstrap</div>
+                    <div class="card-footer"><a href="">view code</a></div>
+                </div>
+                <div class="card col-3">
+                    <div class="card-header text-center fw-bold">LOGIN FORM<img src="images/image.jpg" class="img-fluid"></div>
+                    <div class="card-body">My Login form
+                        Responsive Using HTML, CSS , Bootstrap & JavaScript. It Designed with own creativiety. Developed first with the Mobile First methodology, then for desktop.
+                        
+                        Tech Stack:
+                        HTML, CSS, JavaScript,Bootstrap</div>
+                    <div class="card-footer"><a href="">view code</a></div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="col-12 text-center">
+                <a class="btn btn-info col-2 mt-4" href="#">More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 h4 text-center contact">Contact me</div>
+            <div class="col-1"></div>
+            <div class="col-11 float-start" style="font-size: 30px;font-weight: 400;">What'sapp</div>
+            <div class="col-1"></div>
+            <div class="col-11 float-start" style="font-weight: bold;font-size: 20px;line-height: 40px;">+91 8374434779</div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-1"></div>
+            <div class="col-11" style="font-size: 30px;font-weight: 400;">Social-Media
+            </div>
+            <div class="col-1"></div>
+            <div class="col-11"><a href=""><i class="bi bi-github w-25"></i></a><a href=""><i class="bi bi-linkedin mx-4"></i></a><a href=""><i class="bi bi-facebook"></i></a></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 mt-5"><input class="form-control" placeholder="Enter Your Name"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-10 mt-3"><input class="form-control" placeholder="Enter Your Email"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-10 mt-3 "><textarea rows="3" class="form-control" placeholder="Write Your Message"></textarea></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-10 mt-3 "><button class="btn btn-dark">SUBMIT</button></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</body>
+</html>
